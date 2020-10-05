@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [https://github.com/woodrow-t/CannabisDatabase]()
-- [http://strainapi.evanbusse.com/nsB8jbD/strains/search/all]()
+- [CannabisDatabase](https://github.com/woodrow-t/CannabisDatabase)
+- [API](http://strainapi.evanbusse.com/nsB8jbD/strains/search/all)
 
 ## Project Description
 
@@ -50,8 +50,8 @@ Use this section to include info about the API you have chosen and a code snippe
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [https://imgur.com/a/x6tfmiw]()
-- [https://imgur.com/eaXDBPe]()
+- [WireFrames](https://imgur.com/a/x6tfmiw)
+- [Architecture](https://imgur.com/eaXDBPe)
 
 
 ### MVP/PostMVP - 5min
@@ -60,7 +60,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP MATRIX TEMPLATE LINK HERE!!
 
-[https://imgur.com/q4Iimct]
+- [MVP Matrix](https://imgur.com/eaXDBPe)
 
 #### MVP EXAMPLE
 - Find and use external api 
