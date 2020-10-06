@@ -1,6 +1,13 @@
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
 import "./styles.css";
-import {App} from "./components/App"
+import App from "./components/App";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter as Router} from "react-router-dom";
 
-ReactDom.render(<App />, document.querySelector("#root"));
+ReactDOM.render(
+    <Router>
+        <App />
+    </Router>
+
+, document.querySelector("#root"));

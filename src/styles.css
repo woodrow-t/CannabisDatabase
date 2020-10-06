@@ -2,3 +2,30 @@ h1,
 h2 {
   color: blue;
 }
+
+header {
+   display: flex;
+   justify-content: space-around;
+}
+
+
+
+.navbardesk {
+    display: none;
+  }
+
+.nav-list {
+  text-align: center;
+  margin: auto;
+}
+
+@media (min-width: 426px) {
+  .navbardesk {
+    background-color: mediumspringgreen;
+    display: flex;
+    justify-content: space-evenly;
+  }
+    .hamburger, .nav-list{
+    display: none!important;
+  }
+}
