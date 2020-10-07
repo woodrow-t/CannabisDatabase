@@ -2,18 +2,7 @@ import React from "react"
 // Recieve props parse and display races
 
 export const Race = (props) => {
-    // const [list,setList] = React.useState(null)
-
-    // const selected = props.race
-
-    // React.useEffect(() => {
-    //     fetch(race[selected])
-    //         .then((response) => response.json())
-    //         //pass data to race component
-    //         .then((data) => {
-    //             console.log("Cannabis Data", data)
-    //         }) 
-    //     }, [selected])
+    
     return (
           
     <div className="race"> 
