@@ -1,8 +1,47 @@
 import React from "react"
 // Recieve props parse and display races
 
-export default function Race (){
+export const Race = (props) => {
+    // const [list,setList] = React.useState(null)
+
+    // const selected = props.race
+
+    // React.useEffect(() => {
+    //     fetch(race[selected])
+    //         .then((response) => response.json())
+    //         //pass data to race component
+    //         .then((data) => {
+    //             console.log("Cannabis Data", data)
+    //         }) 
+    //     }, [selected])
     return (
-        <div><h1>I'm the races</h1></div>
+          
+    <div className="race"> 
+        <h1>I'm the Races</h1>
+        <h1>Sativa</h1>
+    
+        <div>
+            <img src="" alt="sativa ico"></img>
+        </div>
+        
+        <p>description of sativa and it's uses here</p>   
+        <button className="button sativa">Sativa</button>
+        <h1>Indica</h1>
+
+        <div>
+            <img src="" alt="indica ico"></img>
+        </div>
+        
+        <p>description of indica and it's uses here</p> 
+        <button className="button indica">Indica</button>
+        <h1>Hybrid</h1>
+
+        <div>
+            <img src="" alt="hybrid ico"></img>
+        </div>
+
+        <p>descriotion of hybrid and it's uses here</p> 
+        <button className="button hybrid">Hybrid</button>
+    </div>
     )
 }

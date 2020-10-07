@@ -1,18 +1,22 @@
 import React, { useState } from 'react';
-import { Link, Route, Switch } from "react-router-dom";
-import Home from "./Home"
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import {Home} from "./Home"
 import NavBar from "./NavBar"
-import NavBarDesk from './NavBarDesk';
-import Race from "./Race"
+import {NavBarDesk} from './NavBarDesk';
+import {Race} from "./Race"
 
 function App() {
   //make API call for all cannabis data
+  fetch("https://strainapi.evanbusse.com/nsB8jbD/strains/search/all")
+  .then(response => response.json())
   
   //pass data to race component
+  .then(data => {
+    console.log("Cannabis Data",data)
+  })
+  
   return (
-    
     <div>
-    
       <NavBar />
       <NavBarDesk />
       
@@ -23,12 +27,11 @@ function App() {
 
         <Route exact path="/">
           <Home />
-        </Route>
-        
+        </Route> 
       </Switch>
 
     </div>
-    );   
+  );   
 }
 
 export default App

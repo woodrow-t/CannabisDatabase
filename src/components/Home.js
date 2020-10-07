@@ -1,8 +1,8 @@
 import React from "react"
-import Race from "./Race"
+import {Race} from "./Race"
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 
-export default function Home (){
+export const Home = (props) => {
     return (
         <div>
             <h1>I'm the Home</h1>

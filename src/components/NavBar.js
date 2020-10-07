@@ -22,8 +22,8 @@ export default function NavBar (){
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-    <Navbar color="light" light expand="md">
-        <NavbarBrand className="title" href="/"><h1>Eden</h1></NavbarBrand>
+    <Navbar className="navbar" light expand="md">
+        <Link className="title" to="/"><h1>EDEN</h1></Link>
         <NavbarToggler className="hamburger" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
             <Nav className="nav-list" navbar>

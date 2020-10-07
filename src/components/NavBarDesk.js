@@ -2,7 +2,7 @@ import React from "react"
 import Race from "./Race"
 import {Link} from "react-router-dom";
 
-export default function NavBarDesk (){
+export const NavBarDesk = (props) =>{
     return (
             <div className="navbardesk">
                 <Link to="/">Home </Link>
