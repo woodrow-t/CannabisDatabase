@@ -6,19 +6,25 @@ import {NavBarDesk} from './NavBarDesk';
 import {Race} from "./Race"
 
 function App() {
-  //make API call for all cannabis data
 
-  // let CannabisDataArray = []
   fetch("https://strainapi.evanbusse.com/nsB8jbD/strains/search/all")
-  .then(response => response.json())
-  
+    .then(response => response.json())
   //pass data to race component
-  
-  .then(data => {
-    console.log("Cannabis Data",data)
-    CannabisDataArray = data
-  })
-  // console.log(CannabisDataArray)
+    .then(data => {
+      console.log("Cannabis Data",data)
+    })
+
+  // const [cannabis, setCannabis] = useState([]);
+  // //make API call for all cannabis data
+  // const getCannabis = strains =>{
+  //   fetch("https://strainapi.evanbusse.com/nsB8jbD/strains/search/all")
+  //   .then(response => response.json())
+  // //pass data to race component
+  //   .then(data => {
+  //     console.log("Cannabis Data",data)
+  //   })
+  // }00000
+
   return (
     <div>
       <NavBar />

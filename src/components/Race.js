@@ -3,11 +3,9 @@ import React, { useState, useEffect } from 'react';
 
 export const Race = (props) => {
 
-    //  const [list, setList] = useState(0);
+    const [list, setList] = useState([]);
 
-    // useEffect(() => {
-    //    console.log(CannabisDataArray) ;
-    // });
+    React.useEffect(()=> getCannabis())
     
     return (
           
