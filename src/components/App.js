@@ -7,14 +7,18 @@ import {Race} from "./Race"
 
 function App() {
   //make API call for all cannabis data
+
+  // let CannabisDataArray = []
   fetch("https://strainapi.evanbusse.com/nsB8jbD/strains/search/all")
   .then(response => response.json())
   
   //pass data to race component
+  
   .then(data => {
     console.log("Cannabis Data",data)
+    CannabisDataArray = data
   })
-  
+  // console.log(CannabisDataArray)
   return (
     <div>
       <NavBar />

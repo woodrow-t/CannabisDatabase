@@ -1,7 +1,13 @@
-import React from "react"
+import React, { useState, useEffect } from 'react';
 // Recieve props parse and display races
 
 export const Race = (props) => {
+
+    //  const [list, setList] = useState(0);
+
+    // useEffect(() => {
+    //    console.log(CannabisDataArray) ;
+    // });
     
     return (
           
