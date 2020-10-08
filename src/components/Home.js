@@ -1,6 +1,6 @@
 import React from "react"
 import {Race} from "./Race"
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { Link, Route, Switch } from "react-router-dom";
 
 export const Home = (props) => {
     return (
@@ -11,13 +11,6 @@ export const Home = (props) => {
             <h3>Let's Get Started</h3>
             </Link>
             
-            <div>
-            <Switch>
-                <Route path="/race">
-                    <Race />
-                </Route>    
-            </Switch>    
-            </div>
         </div>
     )
 }

@@ -4,6 +4,9 @@ import {Home} from "./Home"
 import NavBar from "./NavBar"
 import {NavBarDesk} from './NavBarDesk';
 import {Race} from "./Race"
+import {SingleStrain} from './SingleStrain';
+import {StrainByRace} from "./StrainByRace"
+
 
 function App() {
   const [cannabis, setCannabis] = useState();
@@ -26,6 +29,10 @@ function App() {
       <Switch>
         <Route path="/race/:race" render={
           (renderprops) => <StrainByRace {...renderprops} />
+        } />
+
+        <Route path="/name/:name" render={
+          (renderprops) => <SingleStrain {...renderprops} />
         } />
           
         <Route exact path="/race">

@@ -7,9 +7,9 @@ export const NavBarDesk = (props) =>{
             <div className="navbardesk">
                 <Link to="/">Home </Link>
                 <Link to="/race">Get Started </Link>
-                <a>Sativa </a>
-                <a>Indica </a>
-                <a>Hybrid </a> 
+                <Link to="/race/sativa">Sativa </Link>
+                <Link to="/race/indica">Indica </Link>
+                <Link to="/race/hybrid">Hybrid </Link> 
             </div>
     )
 }

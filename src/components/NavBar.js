@@ -36,14 +36,14 @@ export default function NavBar (){
                 </DropdownToggle>
                     <DropdownMenu right>
                         <DropdownItem>
-                            Sativa
-                  </DropdownItem>
+                            <Link to="/sativa">Sativa</Link>
+                        </DropdownItem>
                         <DropdownItem>
-                            Indica
-                  </DropdownItem>
+                            <Link to="/indca">Indica</Link>
+                        </DropdownItem>
                         <DropdownItem>
-                            Hybrid
-                  </DropdownItem>
+                            <Link to="/hybrid">Hybrid</Link>
+                        </DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
             </Nav>
