@@ -60,7 +60,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP MATRIX TEMPLATE LINK HERE!!
 
-- [MVP Matrix](https://imgur.com/eaXDBPe)
+- [MVP Matrix](https://i.imgur.com/q4Iimct.jpg)
 
 #### MVP EXAMPLE
 - Find and use external api 
