@@ -1,7 +1,7 @@
 import React from "react"
 import Race from "./Race"
 import {Link} from "react-router-dom";
-import "./Navbardesk.scss"
+import "./NavBarDesk.scss"
 
 export const NavBarDesk = (props) =>{
     return (
