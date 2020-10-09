@@ -17,8 +17,9 @@ export const StrainByRace = (props) => {
 
     return strains ? (
         <div className="race">
+            <h1 className="race-list-title">{race} Strains</h1>
             {strains.map((strain) => {
-                return <Link to={`/name/${strain.name}`}><h1>{strain.name}</h1></Link>
+                return <Link to={`/name/${strain.name}`}><div className="strain-bubble"><h1>{strain.name}</h1></div></Link>
             })}
         </div>
     )

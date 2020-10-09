@@ -9,7 +9,7 @@ export const Home = (props) => {
             <div className="home-intro"><p> An application containing all strains of cannabis for both medical and recreational use.</p></div>
             <div className="get-started">
                 <Link to="/race">
-                <h3>Let's Get Started</h3>
+                <h3>Get Started!</h3>
                 </Link>
             </div>
             

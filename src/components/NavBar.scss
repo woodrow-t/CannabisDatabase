@@ -1,11 +1,8 @@
 .navbar {
-  background-color: rgb(49, 153, 136);
+  background-color: #0B5B5A ;
   font-weight: bold;
     p {
         color: white;
-        &:hover {
-            color: red;
-        }
     }
     .drop-list {
         color: black;

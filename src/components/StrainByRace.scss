@@ -1,0 +1,25 @@
+.race {
+
+    .race-list-title {
+         text-shadow: 0 0 10px black;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+    .strain-bubble {
+        background-color: rgba($color: rgb(0, 0, 0), $alpha: .4);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        margin: -15px 20px;
+        box-shadow: 0 0 10px gold;
+        h1 {
+            font-size: 20px;
+            padding: 5px;
+        }
+    }
+}
+
+@media (min-width: 426px) {
+    h1{
+        font-size: 40px!important;
+    }
+}

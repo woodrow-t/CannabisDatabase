@@ -6,7 +6,7 @@
 
 body {
   
-  background-image: linear-gradient(to right,transparent -10%,rgba(114, 18, 158, 0.726)50%, transparent 110%),url('https://i.imgur.com/MxsLizK.png'),url('https://i.imgur.com/NhXeVdK.png');
+  background-image: linear-gradient(to right,transparent -15%,rgba(137, 7, 197, 0.726)50%, transparent 115%),url('https://i.imgur.com/MxsLizK.png'),url('https://i.imgur.com/NhXeVdK.png');
   background-position: center, left 25px, right -250px;
   background-repeat: repeat-y;
 }
@@ -62,11 +62,6 @@ home {
     margin-left: 0%;
     text-align: center;
     width: 100%;
-  }
-  .navbardesk {
-    background-color: mediumspringgreen;
-    display: flex;
-    justify-content: space-evenly;
   }
     .hamburger, .nav-list{
     display: none!important;
