@@ -31,7 +31,7 @@
     }
     button {
         font-family: 'Great Vibes', cursive;
-        font-size: 25px;
+        font-size: 30px;
         font-weight: bold;
         margin-top: 20px;
         margin-bottom: 40px;
@@ -74,6 +74,9 @@
     }
 }
 @media (min-width: 426px) {
+    .race-title {
+        font-size: 50px;
+    }
     .icon {
         img {
             width: 150px;
