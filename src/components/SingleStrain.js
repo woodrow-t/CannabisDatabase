@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react"
-import "./singlestrain.scss"
+import "./Singlestrain.scss"
 
 
 

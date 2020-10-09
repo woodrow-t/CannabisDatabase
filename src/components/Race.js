@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import "./race.scss"
+import "./Race.scss"
 // Recieve props parse and display races
 
 export const Race = (props) => {

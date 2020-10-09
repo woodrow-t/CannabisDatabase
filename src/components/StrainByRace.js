@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react"
 import { Link, Route, Switch } from "react-router-dom";
-import "./strainbyrace.scss"
+import "./Strainbyrace.scss"
 
 export const StrainByRace = (props) => {
     const race = props.match.params.race

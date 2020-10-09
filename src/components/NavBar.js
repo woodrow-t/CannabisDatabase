@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import "./navbar.scss"
+import "./Navbar.scss"
 
 import {
     Collapse,
