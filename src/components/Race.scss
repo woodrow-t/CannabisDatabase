@@ -2,9 +2,11 @@
     margin: auto;
     max-width: 550px;
     .race-title {
-        text-shadow: 0 0 10px black;
-        text-decoration: underline;
-        
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: 'Great Vibes',cursive;
+        font-weight: bold;
+        text-shadow: 0 2px 4px black;
     }
     .race-window {
         background-color: rgba($color: rgb(0, 0, 0), $alpha: .4);
@@ -28,6 +30,8 @@
         padding: 20px;
     }
     button {
+        font-family: 'Great Vibes', cursive;
+        font-size: 20px;
         margin-top: 20px;
         margin-bottom: 40px;
         padding: 20px;

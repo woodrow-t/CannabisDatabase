@@ -1,8 +1,10 @@
 .race {
-
+    margin-top: 20px;
     .race-list-title {
-         text-shadow: 0 0 10px black;
+        font-family: 'Great Vibes', cursive;
+        font-weight: bold;
         text-transform: capitalize;
+        text-shadow: 0 2px 4px black;
     }
     .strain-bubble {
         background-color: rgba($color: rgb(0, 0, 0), $alpha: .4);
@@ -22,6 +24,7 @@
 
 @media (min-width: 426px) {
     .race-list-title{
+        margin-top: 20px;
         font-size: 60px!important;
     }
 }

@@ -7,7 +7,11 @@
     margin: 30px auto;
     max-width: 70%;
     padding: 20px;
-    h1, h2{
+    h1{
+        font-family: 'Great Vibes', cursive;
+        text-shadow: 0 2px 4px gold;
+    } 
+    h2{
         text-transform: capitalize;
     }
 }
@@ -20,10 +24,10 @@
             font-size: 70px;
         } 
         h2{
-            font-size: 50px;
+            font-size: 40px;
         }
         p {
-            font-weight: bold;
+            font-size: 15px;
         }
     }
 }

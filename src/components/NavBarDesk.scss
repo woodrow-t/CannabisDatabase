@@ -1,3 +1,14 @@
+.navbardesk {
+    &:hover {
+            text-shadow: 0 0 5px gold;
+        }
+    p {
+        color: white;
+        text-shadow: 0 0 10px black;
+        
+    }
+}
+
 @media (min-width: 426px) {
 .navbardesk {
     font-weight: bold;

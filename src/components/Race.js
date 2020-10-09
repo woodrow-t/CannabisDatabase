@@ -19,7 +19,7 @@ export const Race = (props) => {
             
             <p>Sativa strains often contain lower doses of CBD and higher doses of THC. This often produces a "head high" which is commonly for those looking for an energizing or anxiety-reducing effect. The stimulating effect of sativas make it a popular choice for daytime use.</p>
         </div>   
-        <button className="sativa"><Link to={"/race/sativa"}>Search Sativa Strains</Link>
+        <button className="sativa"><Link to={"/race/sativa"}>Sativa Strains</Link>
         </button>
 
         <div className="race-window">
@@ -30,7 +30,7 @@ export const Race = (props) => {
             
             <p>Indica strains generally contain higher amounts of CBD and lower amounts of THC. This generally results in a more relaxing effect, making this race of strains very popular for those seeking nausea and pain relief or an increase of appetite. Commonly recommended for use during down time or at night.</p> 
         </div>
-            <button className="indica"><Link to={"/race/indica"}>Search Indica Strains</Link>
+            <button className="indica"><Link to={"/race/indica"}>Indica Strains</Link>
             </button>
         
 
@@ -42,7 +42,7 @@ export const Race = (props) => {
     
             <p>Hybrid strains exist as crosses of Sativa and Indica and can contain the effects of both strains. The balance of THC and CBD are dependent on the strain lineage. Hybrids are classified between Sativa-dominant and Indica-dominant.</p>
         </div>
-        <button className="hybrid"><Link to={"/race/hybrid"}>Search Hybrid Strains</Link>
+        <button className="hybrid"><Link to={"/race/hybrid"}>Hybrid Strains</Link>
         </button>
     </div>
     )
