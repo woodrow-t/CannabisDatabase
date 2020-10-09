@@ -32,6 +32,39 @@
         margin-bottom: 40px;
         padding: 20px;
         border-radius: 10px;
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+       
+        } 
+    .sativa {
+        color: black!important;
+        background-color: #F7B32B;
+
+        &:hover {
+            background-color: #fde36d;
+            box-shadow: 0 0 15px #fde36d;
+        }     
+    }
+    .indica {
+        color: black!important;
+        background-color: #3772FF ;
+
+        &:hover {
+            background-color:  #7ab0dd;
+            box-shadow: 0 0 15px #7ab0dd;
+        }
+    }
+    .hybrid {
+        color: black!important;
+        background-color: #C05746 ;
+
+        &:hover {
+            background-color:  #f19557;
+            box-shadow: 0 0 15px #f19557;
+        }
     }
 }
 @media (min-width: 426px) {

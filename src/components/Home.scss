@@ -3,31 +3,39 @@
     max-width: 250px;
     h1{
         margin-top: 30px;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: bold;
-        color: black;
+        color: white;
+        text-shadow: 0 0 10px black;
     }
     .get-started{
         
-        margin:50px auto 30px;
-        padding: 7px;
-        box-shadow: 0 0 15px gold;
+        margin: 80px auto 30px;
+        padding: 15px;
         width: fit-content;
         background-color: #F7B32B;
         border-radius: 5px;
+        border-style: outset;
+        border-color: orange;
         &:hover {
-            background-color: sandybrown;
+            background-color: rgb(248, 224, 7);
+            box-shadow: 0 0 15px gold;
+            text-decoration: none;
+            
         }
         h3 {
             color: white;
+        }
+        a {
+            text-decoration: none;
         }
     }
     .home-intro {
         background-color: rgba($color: rgb(0, 0, 0), $alpha: .4);
         backdrop-filter: blur(5px);
         border-radius: 10px;
-        border-style: ridge;
-        margin-top: 50px;
+        margin-top: 100px;
+        box-shadow: 0 0 10px gold;
 
         p {
             font-weight: bold;
@@ -40,5 +48,19 @@
 @media (min-width: 426px) {
     .home{
         max-width: 500px;
+        .home-intro {
+            margin: 100px 20px auto 20px;
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .home{
+        .home-intro {
+            margin-top: 200px;
+        }
+        p{
+            font-size: 20px;
+        }
     }
 }

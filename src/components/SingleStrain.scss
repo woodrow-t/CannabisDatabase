@@ -1,12 +1,29 @@
 .single-strain {
-    margin: 20px auto;
-    max-width: 500px;
+    color: white;
+    background-color: rgba($color: rgb(0, 0, 0), $alpha: .4);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        box-shadow: 0 0 10px gold;
+    margin: 30px auto;
+    max-width: 70%;
     padding: 20px;
-    h1{
-        color: crimson;
+    h1, h2{
+        text-transform: capitalize;
     }
-    h2 {
-        color: darkgreen;
+}
+
+@media (min-width: 769px) {
+    .single-strain {
+        margin-top: 100px;
+        h1 {
+            color: white;
+            font-size: 70px;
+        } 
+        h2{
+            font-size: 50px;
+        }
+        p {
+            font-weight: bold;
+        }
     }
-    
 }
