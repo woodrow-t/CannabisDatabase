@@ -31,11 +31,13 @@
     }
     button {
         font-family: 'Great Vibes', cursive;
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: bold;
         margin-top: 20px;
         margin-bottom: 40px;
         padding: 20px;
         border-radius: 10px;
+        text-shadow: 0 0 5px white;
         a{
             color: black;
             text-decoration: none;
@@ -49,7 +51,7 @@
 
         &:hover {
             background-color: #fde36d;
-            box-shadow: 0 0 15px #fde36d;
+            box-shadow: 0 0 10px #fde36d;
         }     
     }
     .indica {
@@ -57,8 +59,8 @@
         background-color: #3772FF ;
 
         &:hover {
-            background-color:  #7ab0dd;
-            box-shadow: 0 0 15px #7ab0dd;
+            background-color:   #7bc4ff;
+            box-shadow: 0 0 10px #7bc4ff;
         }
     }
     .hybrid {
@@ -66,8 +68,8 @@
         background-color: #C05746 ;
 
         &:hover {
-            background-color:  #f19557;
-            box-shadow: 0 0 15px #f19557;
+            background-color:  #ffa86e;
+            box-shadow: 0 0 10px #ffa86e;
         }
     }
 }
