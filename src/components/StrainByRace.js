@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react"
 import { Link, Route, Switch } from "react-router-dom";
+import "./strainbyrace.scss"
 
 export const StrainByRace = (props) => {
     const race = props.match.params.race
@@ -15,7 +16,7 @@ export const StrainByRace = (props) => {
     }, [race]) 
 
     return strains ? (
-        <div>
+        <div className="race">
             {strains.map((strain) => {
                 return <Link to={`/name/${strain.name}`}><h1>{strain.name}</h1></Link>
             })}

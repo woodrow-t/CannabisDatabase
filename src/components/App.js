@@ -6,7 +6,7 @@ import {NavBarDesk} from './NavBarDesk';
 import {Race} from "./Race"
 import {SingleStrain} from './SingleStrain';
 import {StrainByRace} from "./StrainByRace"
-
+import "./App.scss"
 
 function App() {
   const [cannabis, setCannabis] = useState();
@@ -22,7 +22,7 @@ function App() {
   console.log(cannabis)
 
   return (
-    <div>
+    <div className="body">
       <NavBar />
       <NavBarDesk />
       
@@ -43,7 +43,6 @@ function App() {
           <Home />
         </Route> 
       </Switch>
-
     </div>
   );   
 }

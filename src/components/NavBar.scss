@@ -1,0 +1,14 @@
+.navbar {
+  background-color: rgb(49, 153, 136);
+  font-weight: bold;
+    p {
+        color: white;
+        &:hover {
+            color: red;
+        }
+    }
+    .drop-list {
+        color: black;
+        font-weight: bold;
+    }
+}

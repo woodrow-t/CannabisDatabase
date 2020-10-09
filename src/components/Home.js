@@ -1,15 +1,17 @@
 import React from "react"
-import {Race} from "./Race"
-import { Link, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./home.scss"
 
 export const Home = (props) => {
     return (
-        <div>
-            <h1>I'm the Home</h1>
-            
-            <Link to="/race">
-            <h3>Let's Get Started</h3>
-            </Link>
+        <div className="home">
+            <h1>Welcome to EDEN!</h1>
+            <div className="home-intro"><p> An application containing all strains of cannabis for both medical and recreational use.</p></div>
+            <div className="get-started">
+                <Link to="/race">
+                <h3>Let's Get Started</h3>
+                </Link>
+            </div>
             
         </div>
     )

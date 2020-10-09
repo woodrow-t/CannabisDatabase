@@ -1,15 +1,14 @@
-/* * {
-  border-style: solid;
-  border-width: 1px;
-} */
+
 
 * {
   text-align: center;
 }
 
-h1,
-h2 {
-  color: blue;
+body {
+  
+  background-image: linear-gradient(to right,transparent -10%,rgba(114, 18, 158, 0.726)50%, transparent 110%),url('https://i.imgur.com/MxsLizK.png'),url('https://i.imgur.com/NhXeVdK.png');
+  background-position: center, left 25px, right -250px;
+  background-repeat: repeat-y;
 }
 
 header {
@@ -19,21 +18,20 @@ header {
 
 button.button {
   max-width: fit-content;
-  margin: 0;
-  margin-left: 30px;
+  margin: auto;
   padding: 10px;
-  background-color: olivedrab;
   border-radius: 5px;
 }
 
 home {
   text-align: center;
 }
-.navbar {
-  background-color: rgb(49, 153, 136);
+.eden-logo{
+  height: 30px;
 }
+
 .title {
-  margin-left: 25%;
+  margin-left:;
 }
 .navbardesk {
   display: none;
@@ -50,12 +48,15 @@ home {
   margin-bottom: 20px;
 
 }
+
 @media (min-width: 426px) {
+  .eden-logo{
+    height: 50px;
+  }
   .title {
     text-align: center;
     margin-left: 5%;
   }
-  
   
   .navbar-brand{
     margin-left: 0%;
@@ -70,8 +71,4 @@ home {
     .hamburger, .nav-list{
     display: none!important;
   }
-}
-
-@media (min-width: 769px) {
-  
 }

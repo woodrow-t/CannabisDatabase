@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import "./navbar.scss"
 
 import {
     Collapse,
@@ -23,26 +24,26 @@ export default function NavBar (){
 
     return (
     <Navbar className="navbar" light expand="md">
-        <Link className="title" to="/"><h1>EDEN</h1></Link>
+            <Link className="title" to="/"><img className="eden-logo" src="https://i.imgur.com/sFo519A.png"></img></Link>
         <NavbarToggler className="hamburger" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
             <Nav className="nav-list" navbar>
                 <NavItem>
-                    <Link to="/race">Get Started!</Link>
+                    <Link to="/race"><p>Get Started!</p></Link>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav caret>
-                        Races
+                        <p>Races</p>
                 </DropdownToggle>
                     <DropdownMenu right>
                         <DropdownItem>
-                            <Link to="/sativa">Sativa</Link>
+                            <Link to="/race/sativa"><p className="drop-list">Sativa</p></Link>
                         </DropdownItem>
                         <DropdownItem>
-                            <Link to="/indca">Indica</Link>
+                            <Link to="/race/indica"><p className="drop-list">Indica</p></Link>
                         </DropdownItem>
                         <DropdownItem>
-                            <Link to="/hybrid">Hybrid</Link>
+                            <Link to="/race/hybrid"><p className="drop-list">Hybrid</p></Link>
                         </DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>

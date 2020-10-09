@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
-import { Link, Route, Switch } from "react-router-dom";
-import { ListGroupItemHeading } from "reactstrap";
+import "./singlestrain.scss"
+
+
 
 export const SingleStrain = (props) => {
     const name = props.match.params.name
@@ -15,7 +16,7 @@ export const SingleStrain = (props) => {
             })
     }, [name]) 
     return strain ? (
-    <div>
+    <div className="single-strain">
         <h1>{strain.name}</h1>
         <h2>{strain.race}</h2>
         <p>{strain.desc}</p>
